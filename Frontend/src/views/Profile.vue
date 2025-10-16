@@ -42,6 +42,9 @@ const recentActivity = ref([
         <p class="user-email">{{ user.email }}</p>
 
         <button class="edit-btn">Editar perfil</button>
+        <a href="/createPost">
+        <button class="edit-btn">Crear Post</button>
+        </a>
       </aside>
 
       <!-- Lado Derecho: Info -->
